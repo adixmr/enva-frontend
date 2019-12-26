@@ -466,10 +466,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Intro Section
 --------------------------------------------------------------*/
 
+#particles-js{
+  height: 100%;
+  background: rgb(9, 16, 40);
+}
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  /*background: url(../img/intro-bg.jpg) top center;*/
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -535,6 +539,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .lead ul{
   list-style: none;
+  padding: 0;
 }
 .lead ul li{
   display: inline-block;
