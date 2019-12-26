@@ -518,12 +518,26 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 span {
   color: #f82249;
+  font-size: 1.3em;
 }
 
 #intro p {
   color: #ebebeb;
   font-weight: 700;
   font-size: 20px;
+}
+
+.lead {
+  font-size: 3rem;
+  font-weight: 300;
+  color:white;
+  
+}
+.lead ul{
+  list-style: none;
+}
+.lead ul li{
+  display: inline-block;
 }
 
 #intro .play-btn {
