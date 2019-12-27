@@ -515,7 +515,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 70px;
+  font-size: 4.4rem;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -1548,13 +1548,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+  font-size: 1.4rem;
+
 }
 
-#footer .credits {
-  text-align: center;
-  font-size: 13px;
-  color: #ddd;
-}
 
 /*--------------------------------------------------------------
 # Responsive Media Queries
@@ -1630,9 +1627,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #intro h1 {
-    font-size: 34px;
+    font-size: 52px;
   }
 
+  #intro h1 span{
+    font-size: 60px;
+  }
+
+  .lead{
+    font-size: 30px;
+  }
   #intro p {
     font-size: 16px;
   }
