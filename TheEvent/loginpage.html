@@ -35,6 +35,30 @@
     Author: BootstrapMade.com
     License: https://bootstrapmade.com/license/
   ======================================================= -->
+  <style>
+    .submit{
+      color: #fff;
+    background: #f82249;
+    padding: 7px 22px;
+    border-radius: 50px;
+    border: 2px solid #f82249;
+    transition: all ease-in-out 0.3s;
+    font-weight: 500;
+    /*margin-left: 80px;
+    margin-top: 2px;*/
+    margin: auto;
+    line-height: 1;
+    font-size: 13px;
+    }
+  .submit:hover {
+    background: white;
+    color: black;
+    border: 2px solid #f82249;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  </style>
 </head>
 
 <body>
@@ -54,7 +78,7 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
-         <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#about">About</a></li>
           <li><a href="index.html#speakers">Events</a></li>
           
           <li><a href="index.html#gallery">Gallery</a></li>
@@ -74,32 +98,52 @@
     <section id="speakers-details" class="wow fadeIn">
       <div class="container">
         <div class="section-header">
-          <h2>FROM ENVA TEAM</h2>
+          <h2>LOGIN HERE</h2>
           <!--<p>Praesentium ut qui possimus sapiente nulla.</p>-->
         </div>
 
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card text-center">
-              <div class="card-header text-white" style="background-color: #f82249;">
-                Thank You, You have been successfully registered.
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Your unique ID is: 1234</h5>
-                <p class="card-text">Make sure to collect your registration slips after paying the amount to event organisers at registeration desk.
-                  Registeration desk team will be available from 7th Jan till the event starts.</p>
-                
-              </div>
+        
+          <section class="calender-area section-gap" id="speaker" tabindex="-1">
+            <div class="container jumbotron" style="background-color: rgba(6, 12, 34, 0.98);;">
               
-            </div>
-          </div>
-
-          
+              
+    <div class="bd-example">
+       <ul class="list-group text-center">
+          <center><strong>
+    <li class="list-group-item active" style="background-color: #f82249;border: #f82249;">Please enter the authorisation key</li>
+    </strong></center>
+          <li class="list-group-item ">
+          <form action="" method="POST">
+             <br>
+             <div class="input-group mb-3">
+                
+                <input required="" type="password" class="form-control" name="key" aria-describedby="basic-addon1" style="margin: auto; display: block; max-width: 400px;">
+             </div>
+             
+    
+    
+             <div class="input-group mb-3">
+             
+              <button type="submit"  class="btn btn-primary submit">Login</button>
+             </div>
+             </form>
+          </li>
+       </ul>
+    </div>
+    
+    
+    
+    
+            
+          </section>
+          <!-- End speaker Area -->
+    
           
         </div>
       </div>
 
     </section>
+    
 
   </main>
 
