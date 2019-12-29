@@ -27,15 +27,15 @@
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
-  
+
   <link href="lib/venobox/venobox.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  
+
   <link href="css/style.css" rel="stylesheet">
   <link href="css/mystyle.css" rel="stylesheet">
-
+  <link href="css/countdown.css" rel="stylesheet">
 </head>
 
 
@@ -76,14 +76,34 @@
       <h1 class="mb-4 pb-0">ENVA <span>2020</span></h1>
       <p class="mb-4 pb-0">Starts on <span class="type" style="color:#f82249;"></span></p>
     <div class="lead">
-      <div class="container">
+      <!-- <div class="container">
         <ul>
           <li><span id="days"></span> days</li>
           <li><span id="hours"></span> Hours</li>
           <li><span id="minutes"></span> Minutes</li>
           <li><span id="seconds"></span> Seconds</li>
         </ul>
+      </div> -->
+
+    <div id="clockdiv">
+      <div>
+        <span class="days"></span>
+        <div class="smalltext">Days</div>
       </div>
+      <div>
+        <span class="hours"></span>
+        <div class="smalltext">Hours</div>
+      </div>
+      <div>
+        <span class="minutes"></span>
+        <div class="smalltext">Minutes</div>
+      </div>
+      <div>
+        <span class="seconds"></span>
+        <div class="smalltext">Seconds</div>
+      </div>
+    </div>
+
       </div>
 
       <a href="https://youtu.be/bR-hOynewVk" class="venobox play-btn mb-4" data-vbtype="video"
@@ -130,7 +150,7 @@
         </div>
 
         <div class="row">
-          <!--card-1-->   
+          <!--card-1-->
                  <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
                   <div class="card text-center">
                    <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
@@ -141,9 +161,9 @@
                    </div>
                  </div>
                  </div>
-          <!---------------------------------------------------------------------------------------------> 
-          
-          <!--card-2-->   
+          <!--------------------------------------------------------------------------------------------->
+
+          <!--card-2-->
           <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
             <div class="card text-center">
              <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
@@ -154,9 +174,9 @@
              </div>
            </div>
            </div>
-          <!---------------------------------------------------------------------------------------------> 
-          
-          <!--card-3-->   
+          <!--------------------------------------------------------------------------------------------->
+
+          <!--card-3-->
           <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
             <div class="card text-center">
              <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
@@ -167,9 +187,9 @@
              </div>
            </div>
            </div>
-          <!---------------------------------------------------------------------------------------------> 
-          
-          <!--card-4-->   
+          <!--------------------------------------------------------------------------------------------->
+
+          <!--card-4-->
           <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
             <div class="card text-center">
              <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
@@ -180,24 +200,24 @@
              </div>
            </div>
            </div>
-          <!---------------------------------------------------------------------------------------------> 
-          
-          <!--card-5-->   
+          <!--------------------------------------------------------------------------------------------->
+
+          <!--card-5-->
           <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
             <div class="card text-center">
              <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
              <div class="card-body">
                <h5 class="card-title">Hunger Games</h5>
                <p class="card-text">THE HUNGER GAMES is a FOOD EVENT that challenges the participants on their appetite as well as on their confidence to try the weirdest of the weirdest combinations of food.
-          
+
               </p>
                <a href="#" class="btn btn-primary try">Know More!</a>
              </div>
            </div>
            </div>
-          <!---------------------------------------------------------------------------------------------> 
-          
-          <!--card-6-->   
+          <!--------------------------------------------------------------------------------------------->
+
+          <!--card-6-->
           <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
             <div class="card text-center">
              <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
@@ -208,9 +228,9 @@
              </div>
            </div>
            </div>
-          <!---------------------------------------------------------------------------------------------> 
-          
-          <!--card-7-->   
+          <!--------------------------------------------------------------------------------------------->
+
+          <!--card-7-->
           <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
             <div class="card text-center">
              <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
@@ -221,9 +241,9 @@
              </div>
            </div>
            </div>
-          <!---------------------------------------------------------------------------------------------> 
-          
-          <!--card-8-->   
+          <!--------------------------------------------------------------------------------------------->
+
+          <!--card-8-->
           <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
             <div class="card text-center">
              <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
@@ -234,9 +254,9 @@
              </div>
            </div>
            </div>
-          <!---------------------------------------------------------------------------------------------> 
-          
-          <!--card-9-->   
+          <!--------------------------------------------------------------------------------------------->
+
+          <!--card-9-->
           <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
             <div class="card text-center">
              <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
@@ -247,9 +267,9 @@
              </div>
            </div>
            </div>
-          <!---------------------------------------------------------------------------------------------> 
-          
-          <!--card-10-->   
+          <!--------------------------------------------------------------------------------------------->
+
+          <!--card-10-->
           <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
             <div class="card text-center">
              <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
@@ -260,9 +280,9 @@
              </div>
            </div>
            </div>
-          <!---------------------------------------------------------------------------------------------> 
-          
-          <!--card-11-->   
+          <!--------------------------------------------------------------------------------------------->
+
+          <!--card-11-->
           <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
             <div class="card text-center">
              <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
@@ -273,9 +293,9 @@
              </div>
            </div>
            </div>
-          <!---------------------------------------------------------------------------------------------> 
-          
-          <!--card-12-->   
+          <!--------------------------------------------------------------------------------------------->
+
+          <!--card-12-->
           <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
             <div class="card text-center">
              <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
@@ -286,9 +306,9 @@
              </div>
            </div>
            </div>
-          <!---------------------------------------------------------------------------------------------> 
-          
-          <!--card-13-->   
+          <!--------------------------------------------------------------------------------------------->
+
+          <!--card-13-->
           <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
             <div class="card text-center">
              <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
@@ -299,9 +319,9 @@
              </div>
            </div>
            </div>
-          <!---------------------------------------------------------------------------------------------> 
-          
-          <!--card-14-->   
+          <!--------------------------------------------------------------------------------------------->
+
+          <!--card-14-->
           <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
             <div class="card text-center">
              <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
@@ -312,9 +332,9 @@
              </div>
            </div>
            </div>
-          <!---------------------------------------------------------------------------------------------> 
-          
-          <!--card-15-->   
+          <!--------------------------------------------------------------------------------------------->
+
+          <!--card-15-->
           <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
             <div class="card text-center">
              <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
@@ -325,9 +345,9 @@
              </div>
            </div>
            </div>
-          <!---------------------------------------------------------------------------------------------> 
-                  
-                  
+          <!--------------------------------------------------------------------------------------------->
+
+
           </div>
 
 
@@ -375,8 +395,8 @@
 
     </section>-->
 
-    
-          
+
+
 
     <!--==========================
       Gallery Section
@@ -422,43 +442,43 @@
               <img src="img/supporters/s1.jpg" class="img-fluid" alt="">
             </div>
           </div>
-          
+
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <img src="img/supporters/s10.jpg" class="img-fluid" alt="">
             </div>
           </div>
-        
+
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <img src="img/supporters/s3.jpg" class="img-fluid" alt="">
             </div>
           </div>
-          
+
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <img src="img/supporters/s11.jpg" class="img-fluid" alt="">
             </div>
           </div>
-          
+
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <img src="img/supporters/s12.jpg" class="img-fluid" alt="">
             </div>
           </div>
-        
+
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <img src="img/supporters/s6.jpg" class="img-fluid" alt="">
             </div>
           </div>
-          
+
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <img src="img/supporters/s7.jpg" class="img-fluid" alt="">
             </div>
           </div>
-          
+
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <img src="img/supporters/s8.jpg" class="img-fluid" alt="">
@@ -471,12 +491,12 @@
 
     </section>
 
-    
+
 
     <!--==========================
-  
 
-    
+
+
 
     <!--==========================
       Contact Section
@@ -487,7 +507,7 @@
 
         <div class="section-header">
           <h2>Let's Get In Touch</h2>
-          
+
         </div>
 
         <div class="row contact-info">
@@ -521,20 +541,20 @@
 
           <div class="container">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.291806062967!2d77.09043711451015!3d28.621015182422337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04afb8dbcfe1%3A0xaff19e718be2136b!2sMaharaja+Surajmal+Institute+Of+Technology!5e0!3m2!1sen!2sin!4v1545672051814" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-                        
-                        
-                        
-            
+
+
+
+
                       </div>
 
         </div>
 
-        
+
     </section><!-- #contact -->
 
   </main>
 
-  
+
 
   <!--==========================
     Footer
@@ -557,15 +577,15 @@
               <strong>Copyright © 2020|Made with <i class="fas fa-heart" style="color:#f82249"></i> by team prakriti</strong><br>
             </div>
           </div>
-            
 
-          
+
+
 
         </div>
       </div>
     </div>
 
-    
+
   </footer><!-- #footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
@@ -578,7 +598,7 @@ var typed = new Typed('.type', {
   strings: [
   '7 january 2020',
        '8 january 2020'
-       
+
     ],
     typeSpeed: 70,
     backSpeed: 70,

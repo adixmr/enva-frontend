@@ -1,0 +1,60 @@
+
+ .jumbotron{
+ 	margin-top: 5%;
+ }
+
+
+.modelh1{
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 40px;
+	width: 50%;
+}
+
+.modelh1::after {
+    content: "";
+    background-color:#d9534f;
+    display: block;
+    height: 2px;
+    width: 50px;
+    margin: 10px auto 5px;
+    margin-bottom: 5px;
+}
+
+thead{
+	background-color: #d9534f;
+}
+
+.table {
+    border-bottom:0px !important;
+}
+.table th, .table td {
+    border: 1px !important;
+}
+.fixed-table-container {
+    border:0px !important;
+}
+
+td{
+	background-color: white;
+}
+
+.general{
+	text-align: center;
+	margin: 30px auto;
+}
+
+
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
