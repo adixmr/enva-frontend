@@ -974,65 +974,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: scale(1.1);
 }
 
-/*--------------------------------------------------------------
-# Hotels Section
---------------------------------------------------------------*/
 
-#hotels {
-  padding: 60px 0;
-}
-
-#hotels .hotel {
-  border: 1px solid #e0e5fa;
-  background: #fff;
-  margin-bottom: 30px;
-}
-
-#hotels .hotel:hover .hotel-img img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-#hotels .hotel-img {
-  overflow: hidden;
-  margin-bottom: 15px;
-}
-
-#hotels .hotel-img img {
-  transition: 0.3s ease-in-out;
-}
-
-#hotels h3 {
-  font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 5px;
-  padding: 0 20px;
-}
-
-#hotels a {
-  color: #152b79;
-}
-
-#hotels a:hover {
-  color: #f82249;
-}
-
-#hotels .stars {
-  padding: 0 20px;
-  margin-bottom: 5px;
-}
-
-#hotels .stars i {
-  color: #ffc31d;
-}
-
-#hotels p {
-  padding: 0 20px;
-  margin-bottom: 20px;
-  color: #060c22;
-  font-style: italic;
-  font-size: 15px;
-}
 
 /*--------------------------------------------------------------
 # Gallery Section
@@ -1412,19 +1354,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer {
   background: #101522;
-  padding: 0 0 25px 0;
+  padding: 0 0 0 0;
   color: #eee;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 #footer .footer-top {
   background: #040919;
-  padding: 60px 0 30px 0;
+  padding: 60px 0 0 0;
 }
 
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
 }
+
+
 
 #footer .footer-top .footer-info h3 {
   font-size: 26px;
@@ -1541,15 +1485,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
 }
 
-#footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #e0072f;
+#footer p{
+  margin:0 ;
 }
 
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
-  font-size: 1.4rem;
-
+  padding-top: 15px;
+  font-size: 1.1rem;
+  padding-bottom: 0;
+  margin: 0;
 }
 
 
