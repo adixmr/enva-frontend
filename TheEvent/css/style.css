@@ -471,12 +471,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: rgb(9, 16, 40);
 
 }
-@media (max-width: 768px){
-#intro{
-  margin-top: 50px;
 
-}
-}
 #intro {
   width: 100%;
   height: 100vh;
@@ -484,6 +479,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   overflow: hidden;
   position: relative;
+}
+@media (max-width: 768px){
+#intro{
+  margin-top: 50px;
+
+}
 }
 
 #intro:before {

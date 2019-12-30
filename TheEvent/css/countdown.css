@@ -1,7 +1,4 @@
 
-
-
-
 #clockdiv{
 	font-family: sans-serif;
 	color: #fff;
@@ -28,4 +25,20 @@
 .smalltext{
 	padding-top: 5px;
 	font-size: 16px;
+}
+
+@media (max-width: 768px){
+#clockdiv{
+	font-size: 17px;
+	font-weight: 90;
+}
+#clockdiv > div{
+	padding: 9px;
+}
+#clockdiv div > span{
+	padding: 13px;
+}
+.smalltext{
+	font-size: 14px;
+}
 }
