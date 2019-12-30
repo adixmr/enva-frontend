@@ -13,7 +13,7 @@
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">-->
   
   <!-- Favicon-->
-<link rel="shortcut icon" type="image/ico" href="img/fav.ico">
+<link rel="shortcut icon" type="image/ico" href="img/fav.png">
 
   <!--font-awesome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
@@ -81,15 +81,6 @@
       <h1 class="mb-4 pb-0">ENVA <span>2020</span></h1>
       <p class="mb-4 pb-0">Starts on <span class="type" style="color:#f82249;"></span></p>
     <div class="lead">
-      <!-- <div class="container">
-        <ul>
-          <li><span id="days"></span> days</li>
-          <li><span id="hours"></span> Hours</li>
-          <li><span id="minutes"></span> Minutes</li>
-          <li><span id="seconds"></span> Seconds</li>
-        </ul>
-      </div> -->
-
     <div id="clockdiv">
       <div>
         <span class="days"></span>
@@ -277,11 +268,11 @@
           <!--card-10-->
           <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
             <div class="card text-center">
-             <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
+             <img src="img/speakers/1.jpg" class="card-img-top img-fluid" alt="...">
              <div class="card-body">
                <h5 class="card-title">Roohaniyat</h5>
                <p class="card-text">In these cold days of Delhi's winters, we bring to you the warmth of what we often called 'home’; the home where we nurture our emotions with utmost care, and they love us back with infinities we never thought of; the home we call as 'poetry’.</p>
-               <a href="#" class="btn btn-primary try">Know More!</a>
+               <a href="eventdetails.html" class="btn btn-primary try">Know More!</a>
              </div>
            </div>
            </div>
@@ -352,56 +343,9 @@
            </div>
           <!--------------------------------------------------------------------------------------------->
 
-
           </div>
-
-
-
       </div>
     </section>
-
-        <!--<div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html">Brenden Legros</a></h3>
-                <p>Quas alias incidunt</p>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html">Hubert Hirthe</a></h3>
-                <p>Consequuntur odio aut</p>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>-->
-
-
-
 
     <!--==========================
       Gallery Section
@@ -520,15 +464,6 @@
   </div>
     </section>
   
-  <!----------------------------------------------------------------------------------------------------------->
-  
-
-
-    
-
-
-
-
     <!--==========================
       Contact Section
     ============================-->
@@ -635,32 +570,7 @@ var typed = new Typed('.type', {
     backSpeed: 70,
     loop: true
 });
-
-//countdown
-
-const second = 1000,
-        minute = second * 60,
-        hour = minute * 60,
-        day = hour * 24;
-
-      let countDown = new Date("jan 8, 2020 0:00:00").getTime(),
-        x = setInterval(function() {
-          let now = new Date().getTime(),
-            distance = countDown - now;
-
-          (document.getElementById("days").innerText = Math.floor(
-            distance / day
-          )),
-            (document.getElementById("hours").innerText = Math.floor(
-              (distance % day) / hour
-            )),
-            (document.getElementById("minutes").innerText = Math.floor(
-              (distance % hour) / minute
-            )),
-            (document.getElementById("seconds").innerText = Math.floor(
-              (distance % minute) / second
-            ));
-        }, second);
+    
 </script>
 
   <!-- JavaScript Libraries -->
