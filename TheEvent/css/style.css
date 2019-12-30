@@ -469,6 +469,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 #particles-js{
   height: 100%;
   background: rgb(9, 16, 40);
+
+}
+@media (max-width: 768px){
+#intro{
+  margin-top: 50px;
+
+}
 }
 #intro {
   width: 100%;
