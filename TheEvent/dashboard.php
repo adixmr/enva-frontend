@@ -1,3 +1,23 @@
+<?php
+session_start();
+ 
+$dash=json_decode(file_get_contents('https://enva20.herokuapp.com/events/'.$_POST['key'].'/'),1);
+
+//print_r($dash);die;
+
+ if(empty($dash['success'])){
+  header('location: ./loginpage.php?error=Wrong_Key');die;
+ }
+ else{
+ $col=$dash['users'];
+ $_SESSION['eid'] = $_POST['key'];
+ }
+
+ if(!isset($_SESSION['eid'])){
+  header('location: ./loginpage.php');
+}
+  ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -64,7 +84,7 @@
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#supporters">Sponsors</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li>
+          <li class="buy-tickets"><a href="./logout.php">Logout</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -81,29 +101,48 @@
     <table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
   <thead>
     <tr>
-      <th class="th-sm">#</th>
+      <th class="th-sm">Unique id</th>
       <th class="th-sm">Name</th>
       <th class="th-sm">Email</th>
       <th class="th-sm">Phone no
       <th class="th-sm">attendees</th>
       <th class="th-sm">Amount</th>
-      <th class="th-sm">Unique id</th>
-      <th class="th-sm">Payment</th>
+      <th class="th-sm">Payment Status </th>
+      <th class="th-sm">Change Payment Status</th>
       
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>1</td>
-      <td>a</td>
-      <td>a@gmail.com</td>
-      <td>999999999</td>
-      <td>performer</td>
-      <td>-</td>
-      <td>#1234</td>
-      <td>Not paid</td>
-    </tr>
-    <tr>
+
+    <?php 
+//    print_r($col); die;
+
+   foreach($col as $entry){
+    echo '<tr>
+      <td>'.$entry['_id'].'</td>
+      <td>'.$entry['name'].'</td>
+      <td>'.$entry['email'].'</td>
+      <td>'.$entry['phone'].'</td>
+      <td>'.$entry['registered'][0]['variant'].'</td>
+      <td>'.$entry['registered'][0]['amount'].'</td>
+      <td>'.$entry['registered'][0]['status'].'</td>
+      <td>';
+
+      
+      if($entry['registered'][0]['status']!='paid_online'||$entry['registered'][0]['status']!='paid_offline'){
+        echo ' <a class="btn btn-danger" href="https://enva20.herokuapp.com/changeStatus?eid='.$_SESSION['eid'].'&uid='.$entry['_id'].'&status=paid_online"</a></td>';
+      } else echo '<td>-</td>';
+    echo '</tr>';
+  }
+
+
+  // if(isset($_GET['Paid']))
+  // {
+  //   $resp=json_decode(file_get_contents("https://enva20.herokuapp.com/changeStatus?eid=".$keys."&uid=".$_GET['Paid']."&status=paid_online"),1);
+  //   print_r($resp);
+  // }
+?>
+    <!-- <tr>
       <td>2</td>
       <td>b</td>
       <td>b@gmail.com</td>
@@ -122,7 +161,7 @@
       <td>-</td>
       <td>#1234</td>
       <td>Not paid</td>
-    </tr>
+    </tr> -->
         
    
     
@@ -136,78 +175,7 @@
   <!--==========================
     Footer
   ============================-->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-info">
-            <img src="img/logo.png" alt="TheEvenet">
-            <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
-        -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- #footer -->
-
+ 
 
 
 
