@@ -36,101 +36,117 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <style>
+  .alter{
+    background-color: #f82249;
+    border: #f82249;
+    color: white;
+  }
+  </style>
+
 </head>
 
 
 <body>
-
-  <!--==========================
+<!--==========================
     Header
   ============================-->
-  <section>
-  <header id="header">
+  <header id="header" class="header-fixed">
     <div class="container">
 
       <div id="logo" class="pull-left">
         <!-- Uncomment below if you prefer to use a text logo -->
         <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-        <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a>
+        <a href="index.html#intro" class="scrollto"><img src="img/el.png" alt="" title=""></a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#speakers">Events</a></li>
-          <li><a href="#schedule">Schedule</a></li>
-          <li><a href="#venue">Venue</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#supporters">Sponsors</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li>
+         <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#speakers">Events</a></li>
+          
+          <li><a href="index.html#gallery">Gallery</a></li>
+          <li><a href="index.html#supporters">sponsers</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="index.html#team">Team</a></li>
+          <li class="buy-tickets"><a href="index.html#buy-tickets">Buy Tickets</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
 
 </section>
+<main id="main" class="main-page">
 
-
-<section class="jumbotron">
-    <h1 class="text-center modelh1">Registered users for Enva</h1>
-    <div class="text-center">
-    <button class="btn btn-danger general">Download Spreadsheet</button>
-    </div>
-    <table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
-  <thead>
-    <tr>
-      <th class="th-sm">#</th>
-      <th class="th-sm">Name</th>
-      <th class="th-sm">Email</th>
-      <th class="th-sm">Phone no
-      <th class="th-sm">attendees</th>
-      <th class="th-sm">Amount</th>
-      <th class="th-sm">Unique id</th>
-      <th class="th-sm">Payment</th>
+<section id="speakers-details" class="wow fadeIn">
+  <div class="container-fluid">
+    <div class="section-header">
+      <h2>Registered users for Roohaniyat</h2>
+      <!--<p>Praesentium ut qui possimus sapiente nulla.</p>-->
       
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>a</td>
-      <td>a@gmail.com</td>
-      <td>999999999</td>
-      <td>performer</td>
-      <td>-</td>
-      <td>#1234</td>
-      <td>Not paid</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>b</td>
-      <td>b@gmail.com</td>
-      <td>999999999</td>
-      <td>performer</td>
-      <td>-</td>
-      <td>#1234</td>
-      <td>Not paid</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>c</td>
-      <td>c@gmail.com</td>
-      <td>999999999</td>
-      <td>performer</td>
-      <td>-</td>
-      <td>#1234</td>
-      <td>Not paid</td>
-    </tr>
-        
-   
-    
-  </tbody>
-  
-</table>
-  </section>
+    </div>
+    <div class="text-center" style="margin-bottom: 2%;margin-top: 0;">
+    <button type="button" onclick='location.href="./download.php";' class="btn alter">Download Spreadsheet</button>
+  </div>
+    <div class="table-responsive-lg">
+    <table class="table table-striped table-dark">
+      <thead class="alter">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone no</th>
+      <th scope="col">Attendees</th>
+	<th scope="col">Payment</th>
+	<th scope="col">Amount</th>
+	<th scope="col">Unique ID</th>
+	<th scope="col">Change Payment Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Ace Ash</td>
+          <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b6d4d7d2d7dac5ded7c4dbd7f6d1dbd7dfda98d5d9db">ashwani@gmail.com</a></td>
+          <td><a target="_blank" href="https://api.whatsapp.com/send?phone=917827278456&text=&source=&data=#">7827278434</a></td>
+          <td>Performer</td>
+      <td>offline</td>
+      <td>0</td>
+      <td>e397a8fd45c92888adcabb5024d02066</td>	
+      <td><a onclick="return confirm('Paise le liye pakka? tu ik vaari hor soch le!! xD')" href="./pay.php?event=roohaniyat&id=e397a8fd45c92888adcabb5024d02066">Confirm Payment</a></td>
 
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>srk</td>
+          <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b6d4d7d2d7dac5ded7c4dbd7f6d1dbd7dfda98d5d9db">ashwani@gmail.com</a></td>
+          <td><a target="_blank" href="https://api.whatsapp.com/send?phone=917827278456&text=&source=&data=#">7827278434</a></td>
+          <td>Performer</td>
+      <td>offline</td>
+      <td>0</td>
+      <td>e397a8fd45c92888adcabb5024d02066</td>	
+      <td><a onclick="return confirm('Paise le liye pakka? tu ik vaari hor soch le!! xD')" href="./pay.php?event=roohaniyat&id=e397a8fd45c92888adcabb5024d02066">Confirm Payment</a></td>
+
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>sk</td>
+          <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b6d4d7d2d7dac5ded7c4dbd7f6d1dbd7dfda98d5d9db">ashwani@gmail.com</a></td>
+          <td><a target="_blank" href="https://api.whatsapp.com/send?phone=917827278456&text=&source=&data=#">7827278434</a></td>
+          <td>Performer</td>
+      <td>offline</td>
+      <td>0</td>
+      <td>e397a8fd45c92888adcabb5024d02066</td>	
+      <td><a onclick="return confirm('Paise le liye pakka? tu ik vaari hor soch le!! xD')" href="./pay.php?event=roohaniyat&id=e397a8fd45c92888adcabb5024d02066">Confirm Payment</a></td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+  </section>
+</main>
   
 
   <!--==========================
@@ -141,73 +157,29 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-info">
-            <img src="img/logo.png" alt="TheEvenet">
-            <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
-          </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-
+          <div class="col-lg-12">
+            <center>
             <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/msitprakriti/" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/prakriti_msit/" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://in.linkedin.com/company/prakriti-msit/" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
-
+            </center>
+            <div class="copyright">
+              <strong>Copyright © 2020|Made with <i class="fas fa-heart" style="color:#f82249"></i> by team prakriti</strong><br>
+            </div>
           </div>
+            
+
+          
 
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
-        -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
+    
   </footer><!-- #footer -->
-
 
 
 
