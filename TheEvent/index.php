@@ -147,6 +147,50 @@
 
         <div class="row">
           <!--card-1-->
+          <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
+                  <div class="card text-center">
+                   <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Drop Volley</h5>
+                     <p class="card-text">Volleyball is a more intense version of "don't let the balloon touch the floor". It's not just a game it's a way to express your Anger without fighting. It is a fun filled event where the participant/team who wins the first round is promoted to the subsequent round.</p>
+                     <a href="#" class="btn btn-primary try">Know More!</a>
+                   </div>
+                 </div>
+                 </div>
+
+                 <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
+                  <div class="card text-center">
+                   <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Drop Volley</h5>
+                     <p class="card-text">Volleyball is a more intense version of "don't let the balloon touch the floor". It's not just a game it's a way to express your Anger without fighting. It is a fun filled event where the participant/team who wins the first round is promoted to the subsequent round.</p>
+                     <a href="#" class="btn btn-primary try">Know More!</a>
+                   </div>
+                 </div>
+                 </div>
+
+                 <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
+                  <div class="card text-center">
+                   <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Drop Volley</h5>
+                     <p class="card-text">Volleyball is a more intense version of "don't let the balloon touch the floor". It's not just a game it's a way to express your Anger without fighting. It is a fun filled event where the participant/team who wins the first round is promoted to the subsequent round.</p>
+                     <a href="#" class="btn btn-primary try">Know More!</a>
+                   </div>
+                 </div>
+                 </div>
+
+                 <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
+                  <div class="card text-center">
+                   <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Drop Volley</h5>
+                     <p class="card-text">Volleyball is a more intense version of "don't let the balloon touch the floor". It's not just a game it's a way to express your Anger without fighting. It is a fun filled event where the participant/team who wins the first round is promoted to the subsequent round.</p>
+                     <a href="#" class="btn btn-primary try">Know More!</a>
+                   </div>
+                 </div>
+                 </div>
+
                  <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
                   <div class="card text-center">
                    <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
@@ -158,191 +202,6 @@
                  </div>
                  </div>
           <!--------------------------------------------------------------------------------------------->
-
-          <!--card-2-->
-          <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
-            <div class="card text-center">
-             <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
-             <div class="card-body">
-               <h5 class="card-title">Env-o-thon</h5>
-               <p class="card-text">Env-o-thon is an event that needs you to bring out your creativity when it comes to waste materials. Use your mind and motor skills to stand out from the crowd.</p>
-               <a href="#" class="btn btn-primary try">Know More!</a>
-             </div>
-           </div>
-           </div>
-          <!--------------------------------------------------------------------------------------------->
-
-          <!--card-3-->
-          <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
-            <div class="card text-center">
-             <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
-             <div class="card-body">
-               <h5 class="card-title">GETdaFUNK</h5>
-               <p class="card-text">A solo street dance competition which will consists of 3 rounds.</p>
-               <a href="#" class="btn btn-primary try">Know More!</a>
-             </div>
-           </div>
-           </div>
-          <!--------------------------------------------------------------------------------------------->
-
-          <!--card-4-->
-          <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
-            <div class="card text-center">
-             <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
-             <div class="card-body">
-               <h5 class="card-title">Guns and Roses</h5>
-               <p class="card-text">Guns 'n' Roses, a blind date event filled with funny and tricky activities for couples. In this event the pairs formed will have to play certain games and the winning pairs will be promoted to the next round of the event.</p>
-               <a href="#" class="btn btn-primary try">Know More!</a>
-             </div>
-           </div>
-           </div>
-          <!--------------------------------------------------------------------------------------------->
-
-          <!--card-5-->
-          <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
-            <div class="card text-center">
-             <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
-             <div class="card-body">
-               <h5 class="card-title">Hunger Games</h5>
-               <p class="card-text">THE HUNGER GAMES is a FOOD EVENT that challenges the participants on their appetite as well as on their confidence to try the weirdest of the weirdest combinations of food.
-
-              </p>
-               <a href="#" class="btn btn-primary try">Know More!</a>
-             </div>
-           </div>
-           </div>
-          <!--------------------------------------------------------------------------------------------->
-
-          <!--card-6-->
-          <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
-            <div class="card text-center">
-             <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
-             <div class="card-body">
-               <h5 class="card-title">Live Pawn</h5>
-               <p class="card-text">It is an event which will make you nostalgic about all the board games we have played. It will be a team event in which one member of the team will play at a time.</p>
-               <a href="#" class="btn btn-primary try">Know More!</a>
-             </div>
-           </div>
-           </div>
-          <!--------------------------------------------------------------------------------------------->
-
-          <!--card-7-->
-          <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
-            <div class="card text-center">
-             <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
-             <div class="card-body">
-               <h5 class="card-title">Minute to win it</h5>
-               <p class="card-text">Minute To Win It, is an exciting event filled with tricky activities. The event is all about your speed and accuracy.</p>
-               <a href="#" class="btn btn-primary try">Know More!</a>
-             </div>
-           </div>
-           </div>
-          <!--------------------------------------------------------------------------------------------->
-
-          <!--card-8-->
-          <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
-            <div class="card text-center">
-             <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
-             <div class="card-body">
-               <h5 class="card-title">Mystery Rooms</h5>
-               <p class="card-text">A team of 2-4 is locked inside a themed room with some general instructions.</p>
-               <a href="#" class="btn btn-primary try">Know More!</a>
-             </div>
-           </div>
-           </div>
-          <!--------------------------------------------------------------------------------------------->
-
-          <!--card-9-->
-          <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
-            <div class="card text-center">
-             <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
-             <div class="card-body">
-               <h5 class="card-title">Navras</h5>
-               <p class="card-text">Navras is a street play competition which provides a platform to showcase the emotional spectrum in the form of plays elucidating different aspects of various topics and thereby giving a message to spread awareness amongst people.</p>
-               <a href="#" class="btn btn-primary try">Know More!</a>
-             </div>
-           </div>
-           </div>
-          <!--------------------------------------------------------------------------------------------->
-
-          <!--card-10-->
-          <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
-            <div class="card text-center">
-             <img src="img/speakers/1.jpg" class="card-img-top img-fluid" alt="...">
-             <div class="card-body">
-               <h5 class="card-title">Roohaniyat</h5>
-               <p class="card-text">In these cold days of Delhi's winters, we bring to you the warmth of what we often called 'home’; the home where we nurture our emotions with utmost care, and they love us back with infinities we never thought of; the home we call as 'poetry’.</p>
-               <a href="eventdetails.html" class="btn btn-primary try">Know More!</a>
-             </div>
-           </div>
-           </div>
-          <!--------------------------------------------------------------------------------------------->
-
-          <!--card-11-->
-          <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
-            <div class="card text-center">
-             <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
-             <div class="card-body">
-               <h5 class="card-title">Showdown 2.0</h5>
-               <p class="card-text">Showdown 2.0 is a quiz event which let you use your knowledge. Not General Knowledge, but the one that is unforgettable. So in this event you’ll use your web series, movies, shows and many such knowledge to become showdown 2.0 winner.</p>
-               <a href="#" class="btn btn-primary try">Know More!</a>
-             </div>
-           </div>
-           </div>
-          <!--------------------------------------------------------------------------------------------->
-
-          <!--card-12-->
-          <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
-            <div class="card text-center">
-             <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
-             <div class="card-body">
-               <h5 class="card-title">Sports Ardour</h5>
-               <p class="card-text">SPORTS ARDOUR is a strength based event where contestants are allowed to take part individually or as a team. It is a fun filled event where the participant/team who wins the first round is promoted to the subsequent round.</p>
-               <a href="#" class="btn btn-primary try">Know More!</a>
-             </div>
-           </div>
-           </div>
-          <!--------------------------------------------------------------------------------------------->
-
-          <!--card-13-->
-          <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
-            <div class="card text-center">
-             <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
-             <div class="card-body">
-               <h5 class="card-title">Treasure Hunt</h5>
-               <p class="card-text">An exciting game in which players search for respective locations inside college campus by following a trail of clues & at the end race towards there treasure</p>
-               <a href="#" class="btn btn-primary try">Know More!</a>
-             </div>
-           </div>
-           </div>
-          <!--------------------------------------------------------------------------------------------->
-
-          <!--card-14-->
-          <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
-            <div class="card text-center">
-             <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
-             <div class="card-body">
-               <h5 class="card-title">fragzone CSGO</h5>
-               <p class="card-text">IMMORTAL GAMING CAFE PRESENTS! CSGO: WINGMAN competition on LAN. Come with your best wingman and grab the prize.</p>
-               <a href="#" class="btn btn-primary try">Know More!</a>
-             </div>
-           </div>
-           </div>
-          <!--------------------------------------------------------------------------------------------->
-
-          <!--card-15-->
-          <div class="col-lg-4 col-md-4 pb-40 d-flex align-items-stretch mb-4">
-            <div class="card text-center">
-             <img src="img/speakers/1.jpg" class="card-img-top img-fluid alt="...">
-             <div class="card-body">
-               <h5 class="card-title">fragzone PUBG</h5>
-               <p class="card-text">PubG custom room consisting a team of two players(DUO).</p>
-               <a href="#" class="btn btn-primary try">Know More!</a>
-             </div>
-           </div>
-           </div>
-          <!--------------------------------------------------------------------------------------------->
-
           </div>
       </div>
     </section>
